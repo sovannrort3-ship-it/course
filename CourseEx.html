@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: aliceblue;
+        font-family: Khmer os battambong;
+      }
+      .ctrlmenu {
+        background-color: white;
+        height: 130px;
+      }
+      .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .menu {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-color: rgb(216, 216, 216);
+        border-radius: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 2px;
+      }
+      .link {
+        text-decoration: none;
+        padding: 5px;
+        color: black;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      .link:hover {
+        background-color: white;
+        border-radius: 8px;
+        font-weight: bold;
+        width: 100px;
+      }
+      .maincard {
+        margin-top: 10px;
+        border-radius: 8px;
+        height: 150px;
+        font-family: Khmer OS Battambang;
+        display: flex;
+        justify-content: center;
+        /*ប្តូរទិសដៅពី ផ្តេកទៅបញ្ឍរ */
+        flex-direction: column;
+        align-items: center;
+        /*ធ្វើឲកម្ពស់នៃ div ដើរអូតូទៅតាមធាតុខាងក្នុងវា*/
+        height: auto;
+        /*បង្កើតចន្លោះឲ div នីមួយៗពីគ្នា*/
+        gap: 10px;
+        color: white;
+      }
+      .card {
+        padding: 20px;
+        background-color: gray;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ctrlmenu">
+      <div class="top">
+        <div class="left">
+          <a href="#">
+            <img src="back.png" alt="lol" />
+          </a>
+        </div>
+        <div class="center">
+          <h2>Short coruse</h2>
+        </div>
+        <div class="right">
+          <a href="#">
+            <img src="send.png" alt="lol" />
+          </a>
+        </div>
+      </div>
+      <div class="menu">
+        <a href="#" class="link">Questions</a>
+        <a href="#" class="link">Preview</a>
+        <a href="#" class="link">Responses</a>
+        <a href="#" class="link">Settings</a>
+      </div>
+    </div>
+    <div class="maincard">
+      <div class="card">
+        <label>សូមបញ្ចូលជ្រើសរើសកម្រិតភាសាអង់គ្លេសរបស់អ្នក...</label> <br />
+        <input type="radio" />
+        <label>ល្អ</label> <br />
+        <input type="radio" />
+        <label>មធ្យម</label> <br />
+        <input type="radio" />
+        <label>គូរសម</label>
+      </div>
+      <div class="card">
+        <label>សូមបញ្ចូលជ្រើសរើសកម្រិតភាសាអង់គ្លេសរបស់អ្នក...</label> <br />
+        <input type="radio" />
+        <label>ល្អ</label> <br />
+        <input type="radio" />
+        <label>មធ្យម</label> <br />
+        <input type="radio" />
+        <label>គូរសម</label>
+      </div>
+      <div class="card">
+        <label>សូមបញ្ចូលជ្រើសរើសកម្រិតភាសាអង់គ្លេសរបស់អ្នក...</label> <br />
+        <input type="radio" />
+        <label>ល្អ</label> <br />
+        <input type="radio" />
+        <label>មធ្យម</label> <br />
+        <input type="radio" />
+        <label>គូរសម</label>
+      </div>
+    </div>
+  </body>
+</html>
